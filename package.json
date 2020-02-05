@@ -1,0 +1,24 @@
+{
+  "name": "js_selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jasmine": "^3.5.0",
+    "jasmine-pretty-html-reporter": "^0.2.5",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}

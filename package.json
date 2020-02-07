@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx babel-node jasmine"
+    "test": "npx babel-node spec/run.js"
   },
   "author": "",
   "license": "ISC",

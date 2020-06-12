@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx babel-node spec/run.js"
+    "test_chrome": "cp ./src/environments/.env_chrome .env && npx babel-node spec/run.js",
+    "test_firefox": "cp ./src/environments/.env_firefox .env && npx babel-node spec/run.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "chromedriver": "^83.0.0",
     "dotenv": "^8.2.0",
     "jasmine": "^3.5.0",
     "jasmine-pretty-html-reporter": "^0.2.5",

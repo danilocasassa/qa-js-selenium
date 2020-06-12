@@ -5,6 +5,7 @@ This project was created to show about the tests using selenium webdriver in nod
 ### Pre-requisites
 * Node.js installed
 * Browser chrome installed
+* Yarn installed
 
 ### Steps
 1. Clone this repository in your local machine
@@ -17,8 +18,13 @@ npm install
 ## Running the tests
 With the terminal openned in the directory, run:
 ```
-npm test
+yarn test_chrome 
 ```
+for headless mode, or:
+```
+yarn test_chrome --headed
+```
+for headed mode.
 
 ## Author
 * **Danilo Casassa** - *QA Engineer*
